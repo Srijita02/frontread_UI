@@ -1,0 +1,1038 @@
+[
+  {
+    "run_item_id": "f2b077bb-52bc-4e3e-8d66-54230bab5560",
+    "created_at": "2026-05-29T13:20:44",
+    "topic": "medieval life and castles",
+    "grade_key": "grade_3",
+    "grade_label": "3rd Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "text_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "params": {
+      "grade_key": "grade_3",
+      "grade_label": "3rd Grade",
+      "lix_target": 20,
+      "lix_min": 15,
+      "lix_max": 24,
+      "topic": "medieval life and castles",
+      "subtopic": "medieval life and castles",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "personal narrative with factual explanations",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 10,
+      "vocabulary_notes": "Everyday vocabulary. Occasional new word explained immediately in context."
+    },
+    "text_ai_eval": {
+      "age_appropriateness": {
+        "score": 5,
+        "justification": "The text is suitable for 3rd graders, using accessible language and concepts."
+      },
+      "topic_relevance": {
+        "score": 5,
+        "justification": "The text remains focused on medieval life and castles throughout."
+      },
+      "engagement": {
+        "score": 4,
+        "justification": "The narrative is interesting and likely to engage students, though it could include more interactive elements."
+      },
+      "paragraph_consistency": {
+        "score": 3,
+        "justification": "While most paragraphs are consistent, some have higher LIX scores, making them more challenging."
+      },
+      "new_concepts_control": {
+        "score": 4,
+        "justification": "Unfamiliar concepts are introduced but generally explained well for the target age."
+      },
+      "british_english": {
+        "score": 5,
+        "justification": "The text uses British English spelling and phrasing appropriately."
+      },
+      "narrative_arc": {
+        "score": 4,
+        "justification": "The text has a clear structure, but the ending could be more definitive."
+      },
+      "vocabulary_fit": {
+        "score": 2,
+        "justification": "The vocabulary exceeds the appropriate LIX band, making it less suitable for the target grade."
+      },
+      "_overall_score": 4.0
+    },
+    "question_ai_eval": {
+      "answerable_from_text": {
+        "score": 5,
+        "justification": "Every answer can be found explicitly in the passage."
+      },
+      "single_correct_answer": {
+        "score": 5,
+        "justification": "Each question has exactly one unambiguous correct option."
+      },
+      "not_opinion_based": {
+        "score": 5,
+        "justification": "All questions are factual and do not require personal opinions."
+      },
+      "not_general_knowledge": {
+        "score": 5,
+        "justification": "Students must read the passage to answer the questions."
+      },
+      "no_inference_required": {
+        "score": 5,
+        "justification": "All questions are literal and do not require inference."
+      },
+      "distractor_quality": {
+        "score": 5,
+        "justification": "The wrong options are plausible but clearly incorrect based on the text."
+      },
+      "question_clarity": {
+        "score": 5,
+        "justification": "The wording of the questions is clear and appropriate for 3rd graders."
+      },
+      "text_order": {
+        "score": 5,
+        "justification": "The questions follow the order of the source passage."
+      },
+      "text_reference_accuracy": {
+        "score": 5,
+        "justification": "Each text reference accurately contains the answer to its corresponding question."
+      },
+      "british_english": {
+        "score": 4,
+        "justification": "The questions and options are mostly in British English, but 'got' could be more appropriately phrased."
+      },
+      "_overall_score": 4.9
+    },
+    "approval": {
+      "text_metric_ok": false,
+      "text_ai_ok": false,
+      "text_approved": false,
+      "question_metric_ok": true,
+      "question_ai_ok": true,
+      "questions_approved": true,
+      "overall_approved": false,
+      "text_ai_overall_score": 4.0,
+      "text_ai_min_score": 2.0,
+      "question_ai_overall_score": 4.9,
+      "question_ai_min_score": 4.0
+    },
+    "text": {
+      "title": "Life in a Castle",
+      "body": "[Word count: 400]  \nImagine living in a grand castle during medieval times. Castles were not just homes; they were strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even harder for anyone to reach the castle safely.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family and guests.\n\nChildren in the castle lived very different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practised how to manage a household. Education was important, but it was different for boys and girls in many ways.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful and lively.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert and watchful. They would look from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home and families.\n\nAs the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where many stories were made and shared.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 387,
+        "declared_word_count": 400,
+        "word_count_diff": -13,
+        "word_count_ok": true,
+        "word_count_tolerance": 20,
+        "total_sentences": 37,
+        "avg_sentence_length": 10.5,
+        "long_word_count": 60,
+        "long_word_pct": 15.5,
+        "lix_target": 20.0,
+        "lix_min": 15.0,
+        "lix_max": 24.0,
+        "lix_actual": 26.0,
+        "lix_diff": 6.0,
+        "lix_in_band": false,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 23.1,
+            "word_count": 67,
+            "preview": "Imagine living in a grand castle during medieval times. Castles were not just homes; they were strongholds. They were bu..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 30.7,
+            "word_count": 66,
+            "preview": "Inside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked ..."
+          },
+          {
+            "paragraph": 3,
+            "lix": 28.8,
+            "word_count": 68,
+            "preview": "Children in the castle lived very different lives from the adults. They played games in the courtyard and learned skills..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 25.1,
+            "word_count": 59,
+            "preview": "The castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests...."
+          },
+          {
+            "paragraph": 5,
+            "lix": 26.6,
+            "word_count": 61,
+            "preview": "However, life in a castle was not always easy. There were times of danger, especially during battles. The people inside ..."
+          },
+          {
+            "paragraph": 6,
+            "lix": 21.6,
+            "word_count": 66,
+            "preview": "As the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants wou..."
+          }
+        ],
+        "paragraph_lix_values": [
+          23.1,
+          30.7,
+          28.8,
+          25.1,
+          26.6,
+          21.6
+        ],
+        "paragraph_lix_variance": 9.1
+      },
+      "params": {
+        "grade_key": "grade_3",
+        "grade_label": "3rd Grade",
+        "lix_target": 20,
+        "lix_min": 15,
+        "lix_max": 24,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 10,
+        "vocabulary_notes": "Everyday vocabulary. Occasional new word explained immediately in context."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 25.9,
+          "actual_word_count": 371,
+          "lix_in_band": false,
+          "word_count_ok": false
+        },
+        {
+          "revision": 1,
+          "lix_actual": 26.2,
+          "actual_word_count": 388,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 2,
+          "lix_actual": 26.2,
+          "actual_word_count": 387,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 3,
+          "lix_actual": 26.2,
+          "actual_word_count": 387,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 4,
+          "lix_actual": 26.0,
+          "actual_word_count": 387,
+          "lix_in_band": false,
+          "word_count_ok": true
+        }
+      ],
+      "final_revision": 4,
+      "raw_outputs": [
+        "Title:\nLife in a Castle\n\nBody text:\n[Word count: 400]\nImagine living in a grand castle during medieval times. Castles were not just homes; they were also strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even more difficult for anyone to reach the castle.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family.\n\nChildren in the castle had different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practiced how to manage a household. Education was important, but it was different for boys and girls.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert. They would watch from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home.\n\nAs the sun set, the castle would grow quiet. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where stories were made.",
+        "Title:  \nLife in a Castle\n\nBody text:  \n[Word count: 400]  \nImagine living in a grand castle during medieval times. Castles were not just homes; they were also strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even more difficult for anyone to reach the castle safely.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family and guests.\n\nChildren in the castle had different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practised how to manage a household. Education was important, but it was different for boys and girls in many ways.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful and lively.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert and watchful. They would look from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home and families.\n\nAs the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where many stories were made and shared.",
+        "Title:  \nLife in a Castle\n\nBody text:  \n[Word count: 400]  \nImagine living in a grand castle during medieval times. Castles were not just homes; they were strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even more difficult for anyone to reach the castle safely.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family and guests.\n\nChildren in the castle had different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practised how to manage a household. Education was important, but it was different for boys and girls in many ways.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful and lively.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert and watchful. They would look from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home and families.\n\nAs the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where many stories were made and shared.",
+        "Title:  \nLife in a Castle\n\nBody text:  \n[Word count: 400]  \nImagine living in a grand castle during medieval times. Castles were not just homes; they were strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even more difficult for anyone to reach the castle safely.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family and guests.\n\nChildren in the castle had different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practised how to manage a household. Education was important, but it was different for boys and girls in many ways.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful and lively.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert and watchful. They would look from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home and families.\n\nAs the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where many stories were made and shared.",
+        "Title:  \nLife in a Castle\n\nBody text:  \n[Word count: 400]  \nImagine living in a grand castle during medieval times. Castles were not just homes; they were strongholds. They were built to protect the people inside from enemies. The thick stone walls and tall towers made it hard for attackers to get in. Many castles had a moat, which is a deep ditch filled with water. This made it even harder for anyone to reach the castle safely.\n\nInside the castle, life was busy and exciting. The lord and lady of the castle had many servants. These servants worked hard to keep everything running smoothly. They cooked meals, cleaned rooms, and took care of the animals. The kitchen was always filled with the smell of roasting meat and baking bread. The servants had to rise early to prepare breakfast for the family and guests.\n\nChildren in the castle lived very different lives from the adults. They played games in the courtyard and learned skills that would help them later. Boys often trained to be knights. They learned to ride horses and use swords. Girls learned how to sew and cook. They also practised how to manage a household. Education was important, but it was different for boys and girls in many ways.\n\nThe castle was a place of feasts and celebrations. When there was a special occasion, the lord would invite many guests. The great hall would be filled with laughter and music. People would dance and enjoy delicious food. There were often games and contests, too. These events brought everyone together and made life in the castle joyful and lively.\n\nHowever, life in a castle was not always easy. There were times of danger, especially during battles. The people inside had to stay alert and watchful. They would look from the towers for any signs of trouble. If enemies approached, the castle would prepare for a fight. Everyone would gather in the great hall, ready to defend their home and families.\n\nAs the sun set, the castle would grow quiet and calm. The lord and lady would retire to their chambers. The servants would finish their tasks and rest. Life in a castle was full of challenges and adventures. It was a unique way of living, filled with both joy and fear. Castles were not just buildings; they were places where many stories were made and shared."
+      ],
+      "elapsed_sec": 36.48
+    },
+    "questions": {
+      "title": "Life in a Castle",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What were castles built to protect people from?",
+          "A": "Animals",
+          "B": "Enemies",
+          "C": "Weather",
+          "D": "Fire",
+          "correct": "B",
+          "text_reference": "They were built to protect the people inside from enemies.",
+          "type": "Literal"
+        },
+        {
+          "number": 2,
+          "question": "What did the servants in the castle do?",
+          "A": "They played games",
+          "B": "They cooked meals",
+          "C": "They trained to be knights",
+          "D": "They managed the household",
+          "correct": "B",
+          "text_reference": "They cooked meals, cleaned rooms, and took care of the animals.",
+          "type": "Literal"
+        },
+        {
+          "number": 3,
+          "question": "What did boys in the castle often train to become?",
+          "A": "Farmers",
+          "B": "Merchants",
+          "C": "Knights",
+          "D": "Servants",
+          "correct": "C",
+          "text_reference": "Boys often trained to be knights.",
+          "type": "Literal"
+        },
+        {
+          "number": 4,
+          "question": "What would happen when there was a special occasion in the castle?",
+          "A": "The lord would invite many guests",
+          "B": "The castle would be empty",
+          "C": "The servants would leave",
+          "D": "The castle would be under attack",
+          "correct": "A",
+          "text_reference": "The lord would invite many guests.",
+          "type": "Literal"
+        }
+      ],
+      "metrics": {
+        "question_count_target": 4,
+        "question_count_actual": 4,
+        "question_count_ok": true,
+        "type_distribution": "Literal:4",
+        "answer_distribution": "A:1, B:2, C:1, D:0",
+        "questions_with_4_options": 4,
+        "questions_complete_ok": true,
+        "questions_with_text_reference": 4,
+        "text_references_ok": true
+      },
+      "raw_output": "1. What were castles built to protect people from?\nA: Animals\nB: Enemies\nC: Weather\nD: Fire\nCorrect: B\nText reference: They were built to protect the people inside from enemies.\n\n2. What did the servants in the castle do?\nA: They played games\nB: They cooked meals\nC: They trained to be knights\nD: They managed the household\nCorrect: B\nText reference: They cooked meals, cleaned rooms, and took care of the animals.\n\n3. What did boys in the castle often train to become?\nA: Farmers\nB: Merchants\nC: Knights\nD: Servants\nCorrect: C\nText reference: Boys often trained to be knights.\n\n4. What would happen when there was a special occasion in the castle?\nA: The lord would invite many guests\nB: The castle would be empty\nC: The servants would leave\nD: The castle would be under attack\nCorrect: A\nText reference: The lord would invite many guests.",
+      "params": {
+        "grade_key": "grade_3",
+        "grade_label": "3rd Grade",
+        "lix_target": 20,
+        "lix_min": 15,
+        "lix_max": 24,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 10,
+        "vocabulary_notes": "Everyday vocabulary. Occasional new word explained immediately in context."
+      },
+      "elapsed_sec": 4.98
+    }
+  },
+  {
+    "run_item_id": "133e6a76-712d-41f3-91cd-8ac717d2bcf8",
+    "created_at": "2026-05-29T13:21:20",
+    "topic": "medieval life and castles",
+    "grade_key": "grade_6",
+    "grade_label": "6th Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "text_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "params": {
+      "grade_key": "grade_6",
+      "grade_label": "6th Grade",
+      "lix_target": 34,
+      "lix_min": 30,
+      "lix_max": 39,
+      "topic": "medieval life and castles",
+      "subtopic": "medieval life and castles",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "personal narrative with factual explanations",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 15,
+      "vocabulary_notes": "Moderate complexity. Compound and complex sentences. Some topic-specific vocabulary."
+    },
+    "text_ai_eval": {
+      "age_appropriateness": {
+        "score": 5,
+        "justification": "The text is suitable for 6th graders, using language and themes appropriate for their age."
+      },
+      "topic_relevance": {
+        "score": 5,
+        "justification": "The text remains focused on medieval life and castles throughout."
+      },
+      "engagement": {
+        "score": 5,
+        "justification": "The narrative style and vivid descriptions are likely to captivate students' interest."
+      },
+      "paragraph_consistency": {
+        "score": 4,
+        "justification": "Most paragraphs maintain a similar difficulty level, but one paragraph is notably more complex."
+      },
+      "new_concepts_control": {
+        "score": 5,
+        "justification": "Unfamiliar concepts are limited and effectively explained within the context."
+      },
+      "british_english": {
+        "score": 5,
+        "justification": "The text consistently uses British English spelling and phrasing."
+      },
+      "narrative_arc": {
+        "score": 5,
+        "justification": "The text has a clear beginning, development, and conclusion, enhancing its narrative structure."
+      },
+      "vocabulary_fit": {
+        "score": 4,
+        "justification": "The vocabulary is mostly appropriate, though some long words may challenge lower-level readers."
+      },
+      "_overall_score": 4.75
+    },
+    "question_ai_eval": {
+      "answerable_from_text": {
+        "score": 5,
+        "justification": "Every question can be answered directly from the text."
+      },
+      "single_correct_answer": {
+        "score": 5,
+        "justification": "Each question has one clear and unambiguous correct answer."
+      },
+      "not_opinion_based": {
+        "score": 5,
+        "justification": "All questions are factual and do not require personal opinions."
+      },
+      "not_general_knowledge": {
+        "score": 5,
+        "justification": "Students must refer to the passage to answer the questions."
+      },
+      "no_inference_required": {
+        "score": 5,
+        "justification": "All questions are literal and do not require inference."
+      },
+      "distractor_quality": {
+        "score": 4,
+        "justification": "The distractors are plausible but could be slightly more clearly wrong."
+      },
+      "question_clarity": {
+        "score": 5,
+        "justification": "The wording of all questions is clear and appropriate for the grade level."
+      },
+      "text_order": {
+        "score": 5,
+        "justification": "The questions follow the order of the source passage."
+      },
+      "text_reference_accuracy": {
+        "score": 5,
+        "justification": "Each text reference accurately supports the correct answer."
+      },
+      "british_english": {
+        "score": 4,
+        "justification": "The questions and options are mostly in British English but could use minor adjustments."
+      },
+      "_overall_score": 4.8
+    },
+    "approval": {
+      "text_metric_ok": true,
+      "text_ai_ok": true,
+      "text_approved": true,
+      "question_metric_ok": true,
+      "question_ai_ok": true,
+      "questions_approved": true,
+      "overall_approved": true,
+      "text_ai_overall_score": 4.75,
+      "text_ai_min_score": 4.0,
+      "question_ai_overall_score": 4.8,
+      "question_ai_min_score": 4.0
+    },
+    "text": {
+      "title": "Life in a Castle",
+      "body": "[Word count: 400]\nImagine living in a grand castle during medieval times. Castles were not just homes; they were fortresses built to protect their inhabitants. My family lived in one such castle, surrounded by thick stone walls and tall towers. The castle was built on a hill, which gave us a splendid view of the land around us. From the battlements, we could see the fields where peasants worked and the forests where knights hunted for game.\n\nInside the castle, life was both exciting and challenging. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. Long wooden tables were filled with bread, cheese, and roasted meats. We would often feast for hours, sharing stories and laughter. However, life was not always easy. The winters were cold, and the fires in the hearths struggled to keep the chill away. We wore thick woollen clothes to stay warm, and sometimes we would huddle together for warmth during the frostiest nights.\n\nAs a child, I was fascinated by the knights who visited our castle. They wore shining armour and rode magnificent horses. They were brave and skilled, always ready to defend the castle from invaders. I dreamed of becoming a knight myself, but I knew that girls were expected to learn different skills. Instead, I spent my days learning to sew and cook, preparing for the time when I would manage a household of my own in the future.\n\nThe castle was also home to many servants who helped keep everything running smoothly. They worked hard, cleaning, cooking, and taking care of the animals. I often played with the children of the servants, and we would explore the castle grounds together. We climbed trees, played games, and even pretended to be knights on daring quests, imagining ourselves as heroes of old.\n\nDespite the challenges, life in the castle was filled with adventure. Festivals were held to celebrate the changing seasons, and we would dance and sing late into the night. The sound of music echoed through the stone walls, and the flickering torches cast dancing shadows all around us. Each day brought new experiences, and I cherished the stories that would be told for generations to come. Living in a castle was a unique blend of duty, excitement, and community, shaping my childhood in ways I would always remember fondly.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 391,
+        "declared_word_count": 400,
+        "word_count_diff": -9,
+        "word_count_ok": true,
+        "word_count_tolerance": 20,
+        "total_sentences": 26,
+        "avg_sentence_length": 15.0,
+        "long_word_count": 84,
+        "long_word_pct": 21.5,
+        "lix_target": 34.0,
+        "lix_min": 30.0,
+        "lix_max": 39.0,
+        "lix_actual": 36.5,
+        "lix_diff": 2.5,
+        "lix_in_band": true,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 31.0,
+            "word_count": 74,
+            "preview": "Imagine living in a grand castle during medieval times. Castles were not just homes; they were fortresses built to prote..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 33.0,
+            "word_count": 88,
+            "preview": "Inside the castle, life was both exciting and challenging. The great hall was the heart of the castle, where everyone ga..."
+          },
+          {
+            "paragraph": 3,
+            "lix": 34.8,
+            "word_count": 78,
+            "preview": "As a child, I was fascinated by the knights who visited our castle. They wore shining armour and rode magnificent horses..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 42.9,
+            "word_count": 62,
+            "preview": "The castle was also home to many servants who helped keep everything running smoothly. They worked hard, cleaning, cooki..."
+          },
+          {
+            "paragraph": 5,
+            "lix": 42.5,
+            "word_count": 89,
+            "preview": "Despite the challenges, life in the castle was filled with adventure. Festivals were held to celebrate the changing seas..."
+          }
+        ],
+        "paragraph_lix_values": [
+          31.0,
+          33.0,
+          34.8,
+          42.9,
+          42.5
+        ],
+        "paragraph_lix_variance": 11.9
+      },
+      "params": {
+        "grade_key": "grade_6",
+        "grade_label": "6th Grade",
+        "lix_target": 34,
+        "lix_min": 30,
+        "lix_max": 39,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 15,
+        "vocabulary_notes": "Moderate complexity. Compound and complex sentences. Some topic-specific vocabulary."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 36.1,
+          "actual_word_count": 372,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 1,
+          "lix_actual": 36.5,
+          "actual_word_count": 391,
+          "lix_in_band": true,
+          "word_count_ok": true
+        }
+      ],
+      "final_revision": 1,
+      "raw_outputs": [
+        "Title:\nLife in a Castle\n\nBody text:\n[Word count: 400]\nImagine living in a grand castle during medieval times. Castles were not just homes; they were fortresses designed to protect their inhabitants. My family lived in one such castle, surrounded by thick stone walls and tall towers. The castle was built on a hill, which gave us a great view of the land around us. From the battlements, we could see the fields where peasants worked and the forests where knights hunted.\n\nInside the castle, life was both exciting and challenging. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. Long wooden tables were filled with bread, cheese, and roasted meats. We would often feast for hours, sharing stories and laughter. However, life was not always easy. The winters were cold, and the fires in the hearths struggled to keep the chill away. We wore thick woollen clothes to stay warm, and sometimes we would huddle together for warmth.\n\nAs a child, I was fascinated by the knights who visited our castle. They wore shining armour and rode magnificent horses. They were brave and skilled, always ready to defend the castle from invaders. I dreamed of becoming a knight myself, but I knew that girls were expected to learn different skills. Instead, I spent my days learning to sew and cook, preparing for the time when I would manage a household of my own.\n\nThe castle was also home to many servants who helped keep everything running smoothly. They worked hard, cleaning, cooking, and taking care of the animals. I often played with the children of the servants, and we would explore the castle grounds together. We climbed trees, played games, and even pretended to be knights on daring quests.\n\nDespite the challenges, life in the castle was filled with adventure. Festivals were held to celebrate the changing seasons, and we would dance and sing late into the night. The sound of music echoed through the stone walls, and the flickering torches cast dancing shadows. Each day brought new experiences, and I cherished the stories that would be told for generations to come. Living in a castle was a unique blend of duty, excitement, and community, shaping my childhood in ways I would always remember.",
+        "Title:\nLife in a Castle\n\nBody text:\n[Word count: 400]\nImagine living in a grand castle during medieval times. Castles were not just homes; they were fortresses built to protect their inhabitants. My family lived in one such castle, surrounded by thick stone walls and tall towers. The castle was built on a hill, which gave us a splendid view of the land around us. From the battlements, we could see the fields where peasants worked and the forests where knights hunted for game.\n\nInside the castle, life was both exciting and challenging. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. Long wooden tables were filled with bread, cheese, and roasted meats. We would often feast for hours, sharing stories and laughter. However, life was not always easy. The winters were cold, and the fires in the hearths struggled to keep the chill away. We wore thick woollen clothes to stay warm, and sometimes we would huddle together for warmth during the frostiest nights.\n\nAs a child, I was fascinated by the knights who visited our castle. They wore shining armour and rode magnificent horses. They were brave and skilled, always ready to defend the castle from invaders. I dreamed of becoming a knight myself, but I knew that girls were expected to learn different skills. Instead, I spent my days learning to sew and cook, preparing for the time when I would manage a household of my own in the future.\n\nThe castle was also home to many servants who helped keep everything running smoothly. They worked hard, cleaning, cooking, and taking care of the animals. I often played with the children of the servants, and we would explore the castle grounds together. We climbed trees, played games, and even pretended to be knights on daring quests, imagining ourselves as heroes of old.\n\nDespite the challenges, life in the castle was filled with adventure. Festivals were held to celebrate the changing seasons, and we would dance and sing late into the night. The sound of music echoed through the stone walls, and the flickering torches cast dancing shadows all around us. Each day brought new experiences, and I cherished the stories that would be told for generations to come. Living in a castle was a unique blend of duty, excitement, and community, shaping my childhood in ways I would always remember fondly."
+      ],
+      "elapsed_sec": 20.77
+    },
+    "questions": {
+      "title": "Life in a Castle",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What was the purpose of building castles during medieval times?",
+          "A": "To serve as homes for nobles",
+          "B": "To protect their inhabitants",
+          "C": "To store food and supplies",
+          "D": "To host festivals and celebrations",
+          "correct": "B",
+          "text_reference": "Castles were not just homes; they were fortresses built to protect their inhabitants.",
+          "type": "Literal"
+        },
+        {
+          "number": 2,
+          "question": "What did the great hall in the castle serve as?",
+          "A": "A storage room for weapons",
+          "B": "The heart of the castle for meals and celebrations",
+          "C": "A sleeping area for servants",
+          "D": "A place for knights to train",
+          "correct": "B",
+          "text_reference": "The great hall was the heart of the castle, where everyone gathered for meals and celebrations.",
+          "type": "Literal"
+        },
+        {
+          "number": 3,
+          "question": "What did the narrator dream of becoming?",
+          "A": "A servant",
+          "B": "A cook",
+          "C": "A knight",
+          "D": "A farmer",
+          "correct": "C",
+          "text_reference": "I dreamed of becoming a knight myself, but I knew that girls were expected to learn different skills.",
+          "type": "Literal"
+        },
+        {
+          "number": 4,
+          "question": "What activities did the narrator do with the children of the servants?",
+          "A": "They studied together",
+          "B": "They climbed trees and played games",
+          "C": "They cooked meals",
+          "D": "They trained to be knights",
+          "correct": "B",
+          "text_reference": "I often played with the children of the servants, and we would explore the castle grounds together. We climbed trees, played games, and even pretended to be knights on daring quests.",
+          "type": "Literal"
+        }
+      ],
+      "metrics": {
+        "question_count_target": 4,
+        "question_count_actual": 4,
+        "question_count_ok": true,
+        "type_distribution": "Literal:4",
+        "answer_distribution": "A:0, B:3, C:1, D:0",
+        "questions_with_4_options": 4,
+        "questions_complete_ok": true,
+        "questions_with_text_reference": 4,
+        "text_references_ok": true
+      },
+      "raw_output": "1. What was the purpose of building castles during medieval times?\nA: To serve as homes for nobles\nB: To protect their inhabitants\nC: To store food and supplies\nD: To host festivals and celebrations\nCorrect: B\nText reference: Castles were not just homes; they were fortresses built to protect their inhabitants.\n\n2. What did the great hall in the castle serve as?\nA: A storage room for weapons\nB: The heart of the castle for meals and celebrations\nC: A sleeping area for servants\nD: A place for knights to train\nCorrect: B\nText reference: The great hall was the heart of the castle, where everyone gathered for meals and celebrations.\n\n3. What did the narrator dream of becoming?\nA: A servant\nB: A cook\nC: A knight\nD: A farmer\nCorrect: C\nText reference: I dreamed of becoming a knight myself, but I knew that girls were expected to learn different skills.\n\n4. What activities did the narrator do with the children of the servants?\nA: They studied together\nB: They climbed trees and played games\nC: They cooked meals\nD: They trained to be knights\nCorrect: B\nText reference: I often played with the children of the servants, and we would explore the castle grounds together. We climbed trees, played games, and even pretended to be knights on daring quests.",
+      "params": {
+        "grade_key": "grade_6",
+        "grade_label": "6th Grade",
+        "lix_target": 34,
+        "lix_min": 30,
+        "lix_max": 39,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 15,
+        "vocabulary_notes": "Moderate complexity. Compound and complex sentences. Some topic-specific vocabulary."
+      },
+      "elapsed_sec": 5.84
+    }
+  },
+  {
+    "run_item_id": "ffc68c82-a410-4fd7-b662-25ce22e1c045",
+    "created_at": "2026-05-29T13:21:41",
+    "topic": "medieval life and castles",
+    "grade_key": "grade_9",
+    "grade_label": "9th Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "text_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_evaluator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "params": {
+      "grade_key": "grade_9",
+      "grade_label": "9th Grade",
+      "lix_target": 46,
+      "lix_min": 42,
+      "lix_max": 50,
+      "topic": "medieval life and castles",
+      "subtopic": "medieval life and castles",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "personal narrative with factual explanations",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 18,
+      "vocabulary_notes": "Academic vocabulary. Dense paragraphs. Formal register where appropriate."
+    },
+    "text_ai_eval": {
+      "age_appropriateness": {
+        "score": 5,
+        "justification": "The text is suitable for 9th-grade students in terms of content and complexity."
+      },
+      "topic_relevance": {
+        "score": 5,
+        "justification": "The text remains focused on medieval life and castles throughout."
+      },
+      "engagement": {
+        "score": 4,
+        "justification": "The narrative is interesting and contains elements that are likely to engage students."
+      },
+      "paragraph_consistency": {
+        "score": 4,
+        "justification": "Most paragraphs maintain a similar difficulty level, though one is slightly lower."
+      },
+      "new_concepts_control": {
+        "score": 5,
+        "justification": "Unfamiliar concepts are limited and well-explained within the text."
+      },
+      "british_english": {
+        "score": 5,
+        "justification": "The text uses British English spelling and phrasing appropriately."
+      },
+      "narrative_arc": {
+        "score": 5,
+        "justification": "The text has a clear beginning, development, and conclusion."
+      },
+      "vocabulary_fit": {
+        "score": 4,
+        "justification": "The vocabulary is mostly appropriate for the grade and LIX band, with some complex terms."
+      },
+      "_overall_score": 4.62
+    },
+    "question_ai_eval": {
+      "answerable_from_text": {
+        "score": 5,
+        "justification": "Every answer can be found explicitly in the passage."
+      },
+      "single_correct_answer": {
+        "score": 5,
+        "justification": "Each question has exactly one unambiguous correct option."
+      },
+      "not_opinion_based": {
+        "score": 5,
+        "justification": "All questions are factual and do not require personal opinions."
+      },
+      "not_general_knowledge": {
+        "score": 5,
+        "justification": "Students must read the passage to answer the questions."
+      },
+      "no_inference_required": {
+        "score": 5,
+        "justification": "All questions are literal and do not require inference."
+      },
+      "distractor_quality": {
+        "score": 5,
+        "justification": "The wrong options are plausible but clearly incorrect based on the text."
+      },
+      "question_clarity": {
+        "score": 5,
+        "justification": "The wording of all questions is clear and appropriate for the grade level."
+      },
+      "text_order": {
+        "score": 5,
+        "justification": "The questions follow the order of the source passage."
+      },
+      "text_reference_accuracy": {
+        "score": 5,
+        "justification": "Each text reference accurately contains the answer to its corresponding question."
+      },
+      "british_english": {
+        "score": 4,
+        "justification": "The questions and options are mostly in British English, but 'practise' should be 'practice' in this context."
+      },
+      "_overall_score": 4.9
+    },
+    "approval": {
+      "text_metric_ok": false,
+      "text_ai_ok": true,
+      "text_approved": false,
+      "question_metric_ok": true,
+      "question_ai_ok": true,
+      "questions_approved": true,
+      "overall_approved": false,
+      "text_ai_overall_score": 4.62,
+      "text_ai_min_score": 4.0,
+      "question_ai_overall_score": 4.9,
+      "question_ai_min_score": 4.0
+    },
+    "text": {
+      "title": "Life in a Medieval Castle",
+      "body": "[Word count: 400]  \nImagine waking up in a medieval castle, surrounded by thick stone walls and tall towers that reach for the sky. Life in a castle was both fascinating and challenging, filled with daily routines and exciting events. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies who might attack. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas, working hard to maintain the castle's daily operations.\n\nThe castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with laughter, music, and chatter as families enjoyed their time together. The kitchen was another busy place, where cooks prepared hearty meals using fresh ingredients from the castle's gardens. Meat, bread, and vegetables were staples in the diet of the castle's residents, providing the energy needed for their demanding lives.\n\nLife in a castle was not always easy. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth and cooking. The castle's inhabitants had to work hard to keep it running smoothly. The lord managed the estate, making important decisions, while the lady oversaw the household, ensuring that everything was in order. Servants performed various tasks, from cleaning to cooking, helping to maintain the daily rhythm of life.\n\nDefending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills. The castle's walls were high and thick, designed to withstand attacks and provide safety. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle, where they could feel safe from harm.\n\nDespite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to celebrate victories and important occasions, bringing the community together. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events created a sense of camaraderie among the residents, strengthening their bonds. As the sun set, the castle would glow with the light of torches and candles, casting flickering shadows on the stone walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 422,
+        "declared_word_count": 400,
+        "word_count_diff": 22,
+        "word_count_ok": false,
+        "word_count_tolerance": 20,
+        "total_sentences": 24,
+        "avg_sentence_length": 17.6,
+        "long_word_count": 120,
+        "long_word_pct": 28.4,
+        "lix_target": 46.0,
+        "lix_min": 42.0,
+        "lix_max": 50.0,
+        "lix_actual": 46.0,
+        "lix_diff": 0.0,
+        "lix_in_band": true,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 45.9,
+            "word_count": 88,
+            "preview": "Imagine waking up in a medieval castle, surrounded by thick stone walls and tall towers that reach for the sky. Life in ..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 48.1,
+            "word_count": 89,
+            "preview": "The castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household...."
+          },
+          {
+            "paragraph": 3,
+            "lix": 42.2,
+            "word_count": 80,
+            "preview": "Life in a castle was not always easy. The cold stone walls made it chilly in winter, and the lack of modern heating mean..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 49.8,
+            "word_count": 66,
+            "preview": "Defending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protec..."
+          },
+          {
+            "paragraph": 5,
+            "lix": 45.8,
+            "word_count": 99,
+            "preview": "Despite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to c..."
+          }
+        ],
+        "paragraph_lix_values": [
+          45.9,
+          48.1,
+          42.2,
+          49.8,
+          45.8
+        ],
+        "paragraph_lix_variance": 7.6
+      },
+      "params": {
+        "grade_key": "grade_9",
+        "grade_label": "9th Grade",
+        "lix_target": 46,
+        "lix_min": 42,
+        "lix_max": 50,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 18,
+        "vocabulary_notes": "Academic vocabulary. Dense paragraphs. Formal register where appropriate."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 39.1,
+          "actual_word_count": 363,
+          "lix_in_band": false,
+          "word_count_ok": false
+        },
+        {
+          "revision": 1,
+          "lix_actual": 46.0,
+          "actual_word_count": 470,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 2,
+          "lix_actual": 46.3,
+          "actual_word_count": 430,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 3,
+          "lix_actual": 46.4,
+          "actual_word_count": 427,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 4,
+          "lix_actual": 46.0,
+          "actual_word_count": 422,
+          "lix_in_band": true,
+          "word_count_ok": false
+        }
+      ],
+      "final_revision": 4,
+      "raw_outputs": [
+        "Title:\nLife in a Medieval Castle\n\nBody text:\n[Word count: 400]\nImagine waking up in a medieval castle, surrounded by thick stone walls and towering towers. Life in a castle was both fascinating and challenging. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas.\n\nThe castle had many rooms, each serving a specific purpose. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with the sounds of laughter and music. The kitchen was another busy place, where cooks prepared hearty meals. They used ingredients from the castle's gardens and nearby fields. Meat, bread, and vegetables were staples in the diet of the castle's residents.\n\nLife in a castle was not always easy. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth. The castle's inhabitants had to work hard to keep it running smoothly. The lord managed the estate, while the lady oversaw the household. Servants performed various tasks, from cleaning to cooking, ensuring that everything was in order.\n\nDefending the castle was a crucial responsibility. Soldiers trained regularly to protect against invaders. They practised sword fighting and archery, honing their skills for battle. The castle's walls were high and thick, designed to withstand attacks. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle.\n\nDespite the challenges, life in a castle could be exciting. Festivals and tournaments were held to celebrate victories and important occasions. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events brought the community together, creating a sense of camaraderie among the residents.\n\nAs the sun set, the castle would glow with the light of torches and candles. Stories would be shared around the fire, and the day would end with a sense of safety within the castle walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there.",
+        "Title:\nLife in a Medieval Castle\n\nBody text:\n[Word count: 400]\nImagine waking up in a medieval castle, surrounded by thick stone walls and towering towers that reach for the sky. Life in a castle was both fascinating and challenging, filled with daily routines and exciting events. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies who might attack. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas, working hard to maintain the castle's daily operations.\n\nThe castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with the sounds of laughter, music, and chatter as families and friends enjoyed their time together. The kitchen was another busy place, where cooks prepared hearty meals using fresh ingredients from the castle's gardens and nearby fields. Meat, bread, and vegetables were staples in the diet of the castle's residents, providing the energy needed for their demanding lives.\n\nLife in a castle was not always easy or comfortable. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth and cooking. The castle's inhabitants had to work hard to keep it running smoothly and efficiently. The lord managed the estate, making important decisions, while the lady oversaw the household, ensuring that everything was in order. Servants performed various tasks, from cleaning to cooking, helping to maintain the daily rhythm of life.\n\nDefending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills for battle. The castle's walls were high and thick, designed to withstand attacks and provide safety. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle, where they could feel safe from harm.\n\nDespite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to celebrate victories and important occasions, bringing the community together. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events created a sense of camaraderie among the residents, strengthening their bonds and shared experiences.\n\nAs the sun set, the castle would glow with the light of torches and candles, casting flickering shadows on the stone walls. Stories would be shared around the fire, and the day would end with a sense of safety and warmth within the castle walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there, filled with memories that would last a lifetime.",
+        "Title:\nLife in a Medieval Castle\n\nBody text:\n[Word count: 400]\nImagine waking up in a medieval castle, surrounded by thick stone walls and tall towers that reach for the sky. Life in a castle was both fascinating and challenging, filled with daily routines and exciting events. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies who might attack. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas, working hard to maintain the castle's daily operations.\n\nThe castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with the sounds of laughter, music, and chatter as families enjoyed their time together. The kitchen was another busy place, where cooks prepared hearty meals using fresh ingredients from the castle's gardens. Meat, bread, and vegetables were staples in the diet of the castle's residents, providing the energy needed for their demanding lives.\n\nLife in a castle was not always easy or comfortable. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth and cooking. The castle's inhabitants had to work hard to keep it running smoothly. The lord managed the estate, making important decisions, while the lady oversaw the household, ensuring that everything was in order. Servants performed various tasks, from cleaning to cooking, helping to maintain the daily rhythm of life.\n\nDefending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills. The castle's walls were high and thick, designed to withstand attacks and provide safety. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle, where they could feel safe from harm.\n\nDespite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to celebrate victories and important occasions, bringing the community together. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events created a sense of camaraderie among the residents, strengthening their bonds and shared experiences. As the sun set, the castle would glow with the light of torches and candles, casting flickering shadows on the stone walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there.",
+        "Title:  \nLife in a Medieval Castle\n\nBody text:  \n[Word count: 400]  \nImagine waking up in a medieval castle, surrounded by thick stone walls and tall towers that reach for the sky. Life in a castle was both fascinating and challenging, filled with daily routines and exciting events. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies who might attack. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas, working hard to maintain the castle's daily operations.\n\nThe castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with laughter, music, and chatter as families enjoyed their time together. The kitchen was another busy place, where cooks prepared hearty meals using fresh ingredients from the castle's gardens. Meat, bread, and vegetables were staples in the diet of the castle's residents, providing the energy needed for their demanding lives.\n\nLife in a castle was not always easy or comfortable. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth and cooking. The castle's inhabitants had to work hard to keep it running smoothly. The lord managed the estate, making important decisions, while the lady oversaw the household, ensuring that everything was in order. Servants performed various tasks, from cleaning to cooking, helping to maintain the daily rhythm of life.\n\nDefending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills. The castle's walls were high and thick, designed to withstand attacks and provide safety. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle, where they could feel safe from harm.\n\nDespite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to celebrate victories and important occasions, bringing the community together. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events created a sense of camaraderie among the residents, strengthening their bonds and shared experiences. As the sun set, the castle would glow with the light of torches and candles, casting flickering shadows on the stone walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there.",
+        "Title:  \nLife in a Medieval Castle\n\nBody text:  \n[Word count: 400]  \nImagine waking up in a medieval castle, surrounded by thick stone walls and tall towers that reach for the sky. Life in a castle was both fascinating and challenging, filled with daily routines and exciting events. The castle was not just a home; it was a fortress designed to protect its inhabitants from enemies who might attack. The lord and lady of the castle lived in the most luxurious part, while the servants and soldiers occupied the less comfortable areas, working hard to maintain the castle's daily operations.\n\nThe castle had many rooms, each serving a specific purpose that contributed to the overall functioning of the household. The great hall was the heart of the castle, where everyone gathered for meals and celebrations. It was often filled with laughter, music, and chatter as families enjoyed their time together. The kitchen was another busy place, where cooks prepared hearty meals using fresh ingredients from the castle's gardens. Meat, bread, and vegetables were staples in the diet of the castle's residents, providing the energy needed for their demanding lives.\n\nLife in a castle was not always easy. The cold stone walls made it chilly in winter, and the lack of modern heating meant that fires were essential for warmth and cooking. The castle's inhabitants had to work hard to keep it running smoothly. The lord managed the estate, making important decisions, while the lady oversaw the household, ensuring that everything was in order. Servants performed various tasks, from cleaning to cooking, helping to maintain the daily rhythm of life.\n\nDefending the castle was a crucial responsibility that required constant vigilance. Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills. The castle's walls were high and thick, designed to withstand attacks and provide safety. In times of danger, the inhabitants would retreat to the keep, the most secure part of the castle, where they could feel safe from harm.\n\nDespite the challenges, life in a castle could be exciting and filled with joy. Festivals and tournaments were held to celebrate victories and important occasions, bringing the community together. Knights would joust in front of cheering crowds, showcasing their bravery and skill. These events created a sense of camaraderie among the residents, strengthening their bonds. As the sun set, the castle would glow with the light of torches and candles, casting flickering shadows on the stone walls. Life in a medieval castle was a blend of duty, danger, and delight, creating a unique experience for all who lived there."
+      ],
+      "elapsed_sec": 43.1
+    },
+    "questions": {
+      "title": "Life in a Medieval Castle",
+      "questions": [
+        {
+          "number": 1,
+          "question": "What was the heart of the castle where everyone gathered for meals and celebrations?",
+          "A": "The kitchen",
+          "B": "The great hall",
+          "C": "The keep",
+          "D": "The garden",
+          "correct": "B",
+          "text_reference": "The great hall was the heart of the castle, where everyone gathered for meals and celebrations.",
+          "type": "Literal"
+        },
+        {
+          "number": 2,
+          "question": "What were the staples in the diet of the castle's residents?",
+          "A": "Fish, rice, and fruits",
+          "B": "Meat, bread, and vegetables",
+          "C": "Cheese, pasta, and soup",
+          "D": "Nuts, seeds, and berries",
+          "correct": "B",
+          "text_reference": "Meat, bread, and vegetables were staples in the diet of the castle's residents.",
+          "type": "Literal"
+        },
+        {
+          "number": 3,
+          "question": "What did soldiers practise to hone their skills for defending the castle?",
+          "A": "Horse riding and jousting",
+          "B": "Sword fighting and archery",
+          "C": "Climbing and swimming",
+          "D": "Hunting and fishing",
+          "correct": "B",
+          "text_reference": "Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills.",
+          "type": "Literal"
+        },
+        {
+          "number": 4,
+          "question": "What would the castle glow with as the sun set?",
+          "A": "The light of lanterns and fireworks",
+          "B": "The light of torches and candles",
+          "C": "The light of the moon and stars",
+          "D": "The light of the sun and sky",
+          "correct": "B",
+          "text_reference": "As the sun set, the castle would glow with the light of torches and candles.",
+          "type": "Literal"
+        }
+      ],
+      "metrics": {
+        "question_count_target": 4,
+        "question_count_actual": 4,
+        "question_count_ok": true,
+        "type_distribution": "Literal:4",
+        "answer_distribution": "A:0, B:4, C:0, D:0",
+        "questions_with_4_options": 4,
+        "questions_complete_ok": true,
+        "questions_with_text_reference": 4,
+        "text_references_ok": true
+      },
+      "raw_output": "1. What was the heart of the castle where everyone gathered for meals and celebrations?\nA: The kitchen\nB: The great hall\nC: The keep\nD: The garden\nCorrect: B\nText reference: The great hall was the heart of the castle, where everyone gathered for meals and celebrations.\n\n2. What were the staples in the diet of the castle's residents?\nA: Fish, rice, and fruits\nB: Meat, bread, and vegetables\nC: Cheese, pasta, and soup\nD: Nuts, seeds, and berries\nCorrect: B\nText reference: Meat, bread, and vegetables were staples in the diet of the castle's residents.\n\n3. What did soldiers practise to hone their skills for defending the castle?\nA: Horse riding and jousting\nB: Sword fighting and archery\nC: Climbing and swimming\nD: Hunting and fishing\nCorrect: B\nText reference: Soldiers trained regularly to protect against invaders, practising sword fighting and archery to hone their skills.\n\n4. What would the castle glow with as the sun set?\nA: The light of lanterns and fireworks\nB: The light of torches and candles\nC: The light of the moon and stars\nD: The light of the sun and sky\nCorrect: B\nText reference: As the sun set, the castle would glow with the light of torches and candles.",
+      "params": {
+        "grade_key": "grade_9",
+        "grade_label": "9th Grade",
+        "lix_target": 46,
+        "lix_min": 42,
+        "lix_max": 50,
+        "topic": "medieval life and castles",
+        "subtopic": "medieval life and castles",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "personal narrative with factual explanations",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 18,
+        "vocabulary_notes": "Academic vocabulary. Dense paragraphs. Formal register where appropriate."
+      },
+      "elapsed_sec": 5.65
+    }
+  }
+]

@@ -1,0 +1,642 @@
+[
+  {
+    "run_item_id": "d0bde096-3ea9-4893-a293-d74ff0b0bd25",
+    "created_at": "2026-05-29T13:41:43",
+    "topic": "rainforests and biodiversity",
+    "grade_key": "grade_3",
+    "grade_label": "3rd Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "text_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "question_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "",
+      "model": "",
+      "display_name": ""
+    },
+    "params": {
+      "grade_key": "grade_3",
+      "grade_label": "3rd Grade",
+      "lix_target": 20,
+      "lix_min": 15,
+      "lix_max": 24,
+      "topic": "rainforests and biodiversity",
+      "subtopic": "rainforests and biodiversity",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "dialogue-based explanation",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 10,
+      "vocabulary_notes": "Everyday vocabulary. Occasional new word explained immediately in context."
+    },
+    "text_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "question_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "approval": {
+      "text_metric_ok": false,
+      "text_ai_ok": false,
+      "text_approved": false,
+      "question_metric_ok": false,
+      "question_ai_ok": false,
+      "questions_approved": false,
+      "overall_approved": false,
+      "text_ai_overall_score": null,
+      "text_ai_min_score": null,
+      "question_ai_overall_score": null,
+      "question_ai_min_score": null
+    },
+    "text": {
+      "title": "Rainforests",
+      "body": "[Word count: 400]  \nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong. Rainforests are found near the equator, where it is warm and wet all year round. \n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!” They both stared at the tree in wonder, feeling very small beside it. \n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and saw a group of monkeys swinging from branch to branch. They were having fun, jumping and playing in the treetops. \n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them hide in the trees.” Mia took out her notebook and began to draw the bird. She wanted to remember how stunning it looked. \n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help flowers grow by spreading pollen.” Mia nodded, understanding how everything in the rainforest is connected. \n\nAs they continued their adventure, they learned about the importance of having many different living things. “Biodiversity means having many kinds of plants and animals,” Tom said. “In rainforests, there are more species than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together in harmony. \n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone they met.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 419,
+        "declared_word_count": 400,
+        "word_count_diff": 19,
+        "word_count_ok": true,
+        "word_count_tolerance": 20,
+        "total_sentences": 36,
+        "avg_sentence_length": 11.6,
+        "long_word_count": 73,
+        "long_word_pct": 17.4,
+        "lix_target": 20.0,
+        "lix_min": 15.0,
+        "lix_max": 24.0,
+        "lix_actual": 29.1,
+        "lix_diff": 9.1,
+        "lix_in_band": false,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 29.8,
+            "word_count": 67,
+            "preview": "Have you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and a..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 20.1,
+            "word_count": 67,
+            "preview": "One day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree w..."
+          },
+          {
+            "paragraph": 3,
+            "lix": 23.1,
+            "word_count": 65,
+            "preview": "As they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a ho..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 23.7,
+            "word_count": 59,
+            "preview": "Suddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests ..."
+          },
+          {
+            "paragraph": 5,
+            "lix": 36.3,
+            "word_count": 49,
+            "preview": "While they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butte..."
+          },
+          {
+            "paragraph": 6,
+            "lix": 46.0,
+            "word_count": 53,
+            "preview": "As they continued their adventure, they learned about the importance of having many different living things. “Biodiversi..."
+          },
+          {
+            "paragraph": 7,
+            "lix": 33.4,
+            "word_count": 59,
+            "preview": "Before they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said...."
+          }
+        ],
+        "paragraph_lix_values": [
+          29.8,
+          20.1,
+          23.1,
+          23.7,
+          36.3,
+          46.0,
+          33.4
+        ],
+        "paragraph_lix_variance": 25.9
+      },
+      "params": {
+        "grade_key": "grade_3",
+        "grade_label": "3rd Grade",
+        "lix_target": 20,
+        "lix_min": 15,
+        "lix_max": 24,
+        "topic": "rainforests and biodiversity",
+        "subtopic": "rainforests and biodiversity",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "dialogue-based explanation",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 10,
+        "vocabulary_notes": "Everyday vocabulary. Occasional new word explained immediately in context."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 29.4,
+          "actual_word_count": 373,
+          "lix_in_band": false,
+          "word_count_ok": false
+        },
+        {
+          "revision": 1,
+          "lix_actual": 29.5,
+          "actual_word_count": 423,
+          "lix_in_band": false,
+          "word_count_ok": false
+        },
+        {
+          "revision": 2,
+          "lix_actual": 29.5,
+          "actual_word_count": 419,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 3,
+          "lix_actual": 29.3,
+          "actual_word_count": 419,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 4,
+          "lix_actual": 29.1,
+          "actual_word_count": 419,
+          "lix_in_band": false,
+          "word_count_ok": true
+        }
+      ],
+      "final_revision": 4,
+      "raw_outputs": [
+        "Title:\nRainforests\n\nBody text:\n[Word count: 400]\nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong.\n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!”\n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and spotted a group of monkeys swinging from branch to branch.\n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them blend in with the trees.” Mia took out her notebook and began to draw the bird.\n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help pollinate flowers, which means they help plants grow.” Mia nodded, understanding how everything in the rainforest is connected.\n\nAs they continued their adventure, they learned about the importance of biodiversity. “Biodiversity means having many different kinds of living things,” Tom said. “In rainforests, there are more species of plants and animals than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together.\n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone.",
+        "Title:  \nRainforests\n\nBody text:  \n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong. Rainforests are found near the equator, where it is warm and wet all year round. \n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!” They both stared at the tree in wonder, feeling very small beside it. \n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and spotted a group of monkeys swinging from branch to branch. They were having fun, jumping and playing in the treetops. \n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them blend in with the trees.” Mia took out her notebook and began to draw the bird. She wanted to remember how stunning it looked. \n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help pollinate flowers, which means they help plants grow.” Mia nodded, understanding how everything in the rainforest is connected. \n\nAs they continued their adventure, they learned about the importance of biodiversity. “Biodiversity means having many different kinds of living things,” Tom said. “In rainforests, there are more species of plants and animals than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together in harmony. \n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone they met.",
+        "Title:\nRainforests\n\nBody text:\n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong. Rainforests are found near the equator, where it is warm and wet all year round. \n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!” They both stared at the tree in wonder, feeling very small beside it. \n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and spotted a group of monkeys swinging from branch to branch. They were having fun, jumping and playing in the treetops. \n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them hide in the trees.” Mia took out her notebook and began to draw the bird. She wanted to remember how stunning it looked. \n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help flowers grow by spreading pollen.” Mia nodded, understanding how everything in the rainforest is connected. \n\nAs they continued their adventure, they learned about the importance of biodiversity. “Biodiversity means having many different kinds of living things,” Tom said. “In rainforests, there are more species of plants and animals than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together in harmony. \n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone they met.",
+        "Title:  \nRainforests\n\nBody text:  \n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong. Rainforests are found near the equator, where it is warm and wet all year round. \n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!” They both stared at the tree in wonder, feeling very small beside it. \n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and saw a group of monkeys swinging from branch to branch. They were having fun, jumping and playing in the treetops. \n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them hide in the trees.” Mia took out her notebook and began to draw the bird. She wanted to remember how stunning it looked. \n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help flowers grow by spreading pollen.” Mia nodded, understanding how everything in the rainforest is connected. \n\nAs they continued their adventure, they learned about the importance of biodiversity. “Biodiversity means having many different kinds of living things,” Tom said. “In rainforests, there are more species of plants and animals than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together in harmony. \n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone they met.",
+        "Title:  \nRainforests\n\nBody text:  \n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Rainforests are special places filled with many different plants and animals. They are often called the lungs of the Earth because they help clean the air we breathe. In a rainforest, it rains a lot, which helps the plants grow tall and strong. Rainforests are found near the equator, where it is warm and wet all year round. \n\nOne day, Mia and her friend Tom were exploring a rainforest. “Look at that huge tree!” Mia said, pointing up. The tree was so tall that it seemed to touch the sky. “It’s called a kapok tree. It can grow over fifty metres high!” Tom replied, amazed. “That’s taller than most buildings!” They both stared at the tree in wonder, feeling very small beside it. \n\nAs they walked deeper into the forest, they heard strange sounds. “What is that noise?” Mia asked, curious. “That’s a howler monkey,” Tom explained. “They make loud calls to talk to each other. They live high up in the trees.” Mia looked up and saw a group of monkeys swinging from branch to branch. They were having fun, jumping and playing in the treetops. \n\nSuddenly, they saw a flash of colour. “Wow! Look at that bird!” Mia exclaimed. It was a bright blue macaw. “Rainforests are home to many colourful birds,” Tom said. “They have beautiful feathers that help them hide in the trees.” Mia took out her notebook and began to draw the bird. She wanted to remember how stunning it looked. \n\nWhile they were sketching, they noticed tiny insects buzzing around. “What are those?” Mia asked. “They are called butterflies,” Tom replied. “Some butterflies have wings that are as big as your hand! They help flowers grow by spreading pollen.” Mia nodded, understanding how everything in the rainforest is connected. \n\nAs they continued their adventure, they learned about the importance of having many different living things. “Biodiversity means having many kinds of plants and animals,” Tom said. “In rainforests, there are more species than anywhere else on Earth.” Mia thought about how amazing it was that so many creatures lived together in harmony. \n\nBefore they left, Mia and Tom promised to tell others about the rainforest. “We need to protect these places,” Mia said. “They are so important for our planet.” Tom agreed, “Yes! If we take care of rainforests, we help ourselves too.” They smiled, knowing they would share their adventure and the wonders of the rainforest with everyone they met."
+      ],
+      "elapsed_sec": 80.25
+    }
+  },
+  {
+    "run_item_id": "fd999877-65fe-4ea3-b4fa-9be11fd2f8af",
+    "created_at": "2026-05-29T13:43:03",
+    "topic": "rainforests and biodiversity",
+    "grade_key": "grade_6",
+    "grade_label": "6th Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "text_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "question_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "",
+      "model": "",
+      "display_name": ""
+    },
+    "params": {
+      "grade_key": "grade_6",
+      "grade_label": "6th Grade",
+      "lix_target": 34,
+      "lix_min": 30,
+      "lix_max": 39,
+      "topic": "rainforests and biodiversity",
+      "subtopic": "rainforests and biodiversity",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "dialogue-based explanation",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 15,
+      "vocabulary_notes": "Moderate complexity. Compound and complex sentences. Some topic-specific vocabulary."
+    },
+    "text_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "question_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "approval": {
+      "text_metric_ok": false,
+      "text_ai_ok": false,
+      "text_approved": false,
+      "question_metric_ok": false,
+      "question_ai_ok": false,
+      "questions_approved": false,
+      "overall_approved": false,
+      "text_ai_overall_score": null,
+      "text_ai_min_score": null,
+      "question_ai_overall_score": null,
+      "question_ai_min_score": null
+    },
+    "text": {
+      "title": "Rainforests and Biodiversity",
+      "body": "[Word count: 400]  \nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface. These ecosystems are vital for our planet.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures that live in the rainforest.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility. They were thrilled to see such a lively creature.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!” They realised how everything is connected in this vibrant ecosystem.\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.” They felt a sense of responsibility to help. \n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations. They promised to tell their friends about the wonders of the rainforest and the importance of saving it.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 424,
+        "declared_word_count": 400,
+        "word_count_diff": 24,
+        "word_count_ok": false,
+        "word_count_tolerance": 20,
+        "total_sentences": 33,
+        "avg_sentence_length": 12.8,
+        "long_word_count": 99,
+        "long_word_pct": 23.3,
+        "lix_target": 34.0,
+        "lix_min": 30.0,
+        "lix_max": 39.0,
+        "lix_actual": 36.2,
+        "lix_diff": 2.2,
+        "lix_in_band": true,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 31.2,
+            "word_count": 69,
+            "preview": "Have you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many di..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 34.7,
+            "word_count": 65,
+            "preview": "One day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclai..."
+          },
+          {
+            "paragraph": 3,
+            "lix": 42.6,
+            "word_count": 62,
+            "preview": "As they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 24.8,
+            "word_count": 64,
+            "preview": "Suddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s..."
+          },
+          {
+            "paragraph": 5,
+            "lix": 46.1,
+            "word_count": 56,
+            "preview": "As they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provi..."
+          },
+          {
+            "paragraph": 6,
+            "lix": 37.2,
+            "word_count": 56,
+            "preview": "Before leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threaten..."
+          },
+          {
+            "paragraph": 7,
+            "lix": 44.3,
+            "word_count": 52,
+            "preview": "As they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they..."
+          }
+        ],
+        "paragraph_lix_values": [
+          31.2,
+          34.7,
+          42.6,
+          24.8,
+          46.1,
+          37.2,
+          44.3
+        ],
+        "paragraph_lix_variance": 21.3
+      },
+      "params": {
+        "grade_key": "grade_6",
+        "grade_label": "6th Grade",
+        "lix_target": 34,
+        "lix_min": 30,
+        "lix_max": 39,
+        "topic": "rainforests and biodiversity",
+        "subtopic": "rainforests and biodiversity",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "dialogue-based explanation",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 15,
+        "vocabulary_notes": "Moderate complexity. Compound and complex sentences. Some topic-specific vocabulary."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 36.5,
+          "actual_word_count": 370,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 1,
+          "lix_actual": 36.9,
+          "actual_word_count": 434,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 2,
+          "lix_actual": 36.2,
+          "actual_word_count": 424,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 3,
+          "lix_actual": 36.2,
+          "actual_word_count": 424,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 4,
+          "lix_actual": 36.2,
+          "actual_word_count": 424,
+          "lix_in_band": true,
+          "word_count_ok": false
+        }
+      ],
+      "final_revision": 4,
+      "raw_outputs": [
+        "Title:\nRainforests and Biodiversity\n\nBody text:\n[Word count: 400]\nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded in agreement. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have medicinal properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!”\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.”\n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations.",
+        "Title:\nRainforests and Biodiversity\n\nBody text:\n[Word count: 400]\nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface. These unique ecosystems are vital for our planet.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded in agreement. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures that live in the rainforest.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes in their surroundings.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility and playful nature. They were thrilled to see such a lively creature.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have medicinal properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!” They realised how interconnected everything is in this vibrant ecosystem.\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.” They felt a sense of responsibility to help.\n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations. They promised to tell their friends about the wonders of the rainforest and the importance of saving it.",
+        "Title:\nRainforests and Biodiversity\n\nBody text:\n[Word count: 400]\nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface. These ecosystems are vital for our planet.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures that live in the rainforest.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility. They were thrilled to see such a lively creature.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!” They realised how everything is connected in this vibrant ecosystem.\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.” They felt a sense of responsibility to help.\n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations. They promised to tell their friends about the wonders of the rainforest and the importance of saving it.",
+        "Title:  \nRainforests and Biodiversity\n\nBody text:  \n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface. These ecosystems are vital for our planet.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures that live in the rainforest.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility. They were thrilled to see such a lively creature.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!” They realised how everything is connected in this vibrant ecosystem.\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.” They felt a sense of responsibility to help. \n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations. They promised to tell their friends about the wonders of the rainforest and the importance of saving it.",
+        "Title:  \nRainforests and Biodiversity\n\nBody text:  \n[Word count: 400]  \nHave you ever wondered what a rainforest is like? Imagine a place filled with tall trees, colourful flowers, and many different animals. Rainforests are found near the equator, where it is warm and wet. They are home to more than half of the world’s plant and animal species, even though they cover only a small part of the Earth’s surface. These ecosystems are vital for our planet.\n\nOne day, Mia and her friend Sam decided to explore a local rainforest. As they walked along the winding path, Mia exclaimed, “Look at all these trees! They are so tall!” Sam nodded. “Yes, and they create a thick canopy that blocks out much of the sunlight.” This canopy is important because it provides a unique habitat for many creatures that live in the rainforest.\n\nAs they ventured deeper, they spotted a bright blue butterfly fluttering by. “Wow! That butterfly is stunning!” Mia said, her eyes wide with amazement. Sam replied, “Rainforests are known for their incredible biodiversity. This means there are many different types of living things here.” They learned that biodiversity is essential for a healthy environment. It helps ecosystems thrive and recover from changes.\n\nSuddenly, they heard a rustling sound in the bushes. “What do you think it is?” Mia whispered. Sam shrugged, “Maybe it’s a monkey or a sloth!” They waited patiently, and soon a small monkey peeked out. “Look! It’s so cute!” Mia giggled. The monkey swung from branch to branch, showing off its agility. They were thrilled to see such a lively creature.\n\nAs they continued their adventure, they discovered various plants. “These plants are not just beautiful; they also provide food and shelter for animals,” Sam explained. “Some plants even have properties that can help people.” Mia was fascinated. “So, rainforests are important for both nature and humans!” They realised how everything is connected in this vibrant ecosystem.\n\nBefore leaving, they learned that rainforests are in danger. Deforestation, which is the cutting down of trees, threatens the homes of many species. “We need to protect these amazing places,” Mia said thoughtfully. Sam agreed, “Yes, if we don’t, we might lose many plants and animals forever.” They felt a sense of responsibility to help. \n\nAs they walked back, Mia and Sam felt inspired to share what they had learned. They knew that by raising awareness, they could help protect the rainforests and their incredible biodiversity for future generations. They promised to tell their friends about the wonders of the rainforest and the importance of saving it."
+      ],
+      "elapsed_sec": 78.19
+    }
+  },
+  {
+    "run_item_id": "064ce446-16df-4c77-9119-2c63e4da1ea2",
+    "created_at": "2026-05-29T13:44:21",
+    "topic": "rainforests and biodiversity",
+    "grade_key": "grade_9",
+    "grade_label": "9th Grade",
+    "models": {
+      "text_generator": {
+        "provider": "openai",
+        "model": "gpt-4o-mini",
+        "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+      },
+      "question_generator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "text_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      },
+      "question_evaluator": {
+        "provider": "",
+        "model": "",
+        "display_name": ""
+      }
+    },
+    "generator": {
+      "provider": "openai",
+      "model": "gpt-4o-mini",
+      "display_name": "OpenAI / ChatGPT default · gpt-4o-mini"
+    },
+    "evaluator": {
+      "provider": "",
+      "model": "",
+      "display_name": ""
+    },
+    "params": {
+      "grade_key": "grade_9",
+      "grade_label": "9th Grade",
+      "lix_target": 46,
+      "lix_min": 42,
+      "lix_max": 50,
+      "topic": "rainforests and biodiversity",
+      "subtopic": "rainforests and biodiversity",
+      "text_type_key": "mixed",
+      "text_type_label": "Mixed factual narrative",
+      "text_type": "Mixed factual narrative",
+      "text_format": "journey through a real-world process",
+      "word_count": 400,
+      "question_count": 4,
+      "sentence_length_avg": 18,
+      "vocabulary_notes": "Academic vocabulary. Dense paragraphs. Formal register where appropriate."
+    },
+    "text_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "question_ai_eval": {
+      "_overall_score": null,
+      "_skipped": true,
+      "_status": "not_run"
+    },
+    "approval": {
+      "text_metric_ok": false,
+      "text_ai_ok": false,
+      "text_approved": false,
+      "question_metric_ok": false,
+      "question_ai_ok": false,
+      "questions_approved": false,
+      "overall_approved": false,
+      "text_ai_overall_score": null,
+      "text_ai_min_score": null,
+      "question_ai_overall_score": null,
+      "question_ai_min_score": null
+    },
+    "text": {
+      "title": "Rainforests and Biodiversity",
+      "body": "[Word count: 400]  \nRainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because they produce oxygen and take in carbon dioxide. These green areas are found near the equator, where it is warm and rainy all year round. The Amazon rainforest in South America is the largest, but rainforests also grow in Africa and Southeast Asia. Each rainforest is home to many species of plants, animals, and tiny organisms, many of which cannot be found anywhere else in the world. \n\nBiodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is believed that more than half of the world’s plant and animal species live in these lively habitats. For example, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This complex web of life is important for keeping the ecosystem balanced. Each species has a special role, helping with things like pollination, spreading seeds, and recycling nutrients. \n\nRainforests are important not just for their many species. They also provide essential resources for people, such as food, medicine, and materials. Many medicines we use today come from plants found in rainforests. For instance, the rosy periwinkle, a plant from Madagascar, is used to treat some types of cancer. Additionally, rainforests help control the global climate by storing large amounts of carbon, which helps reduce the effects of climate change. \n\nSadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building cities, is destroying these valuable ecosystems quickly. This loss of habitat causes many species to decline, as they cannot adapt to the fast changes in their homes. When species go extinct, it not only reduces the richness of our planet but also disturbs the delicate balance of the ecosystem. \n\nTo protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging, planting new trees, and creating protected areas can help save these vital ecosystems. By raising awareness and encouraging responsible choices, we can all help protect rainforests. The future of our planet relies on the health of these wonderful places and the many forms of life they support.",
+      "metrics": {
+        "target_word_count": 400,
+        "actual_word_count": 370,
+        "declared_word_count": 400,
+        "word_count_diff": -30,
+        "word_count_ok": false,
+        "word_count_tolerance": 20,
+        "total_sentences": 24,
+        "avg_sentence_length": 15.4,
+        "long_word_count": 109,
+        "long_word_pct": 29.5,
+        "lix_target": 46.0,
+        "lix_min": 42.0,
+        "lix_max": 50.0,
+        "lix_actual": 44.9,
+        "lix_diff": -1.1,
+        "lix_in_band": true,
+        "paragraph_lix_scores": [
+          {
+            "paragraph": 1,
+            "lix": 36.9,
+            "word_count": 88,
+            "preview": "Rainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because ..."
+          },
+          {
+            "paragraph": 2,
+            "lix": 45.0,
+            "word_count": 84,
+            "preview": "Biodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is bel..."
+          },
+          {
+            "paragraph": 3,
+            "lix": 43.8,
+            "word_count": 71,
+            "preview": "Rainforests are important not just for their many species. They also provide essential resources for people, such as foo..."
+          },
+          {
+            "paragraph": 4,
+            "lix": 51.6,
+            "word_count": 65,
+            "preview": "Sadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building citie..."
+          },
+          {
+            "paragraph": 5,
+            "lix": 51.0,
+            "word_count": 62,
+            "preview": "To protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging..."
+          }
+        ],
+        "paragraph_lix_values": [
+          36.9,
+          45.0,
+          43.8,
+          51.6,
+          51.0
+        ],
+        "paragraph_lix_variance": 14.7
+      },
+      "params": {
+        "grade_key": "grade_9",
+        "grade_label": "9th Grade",
+        "lix_target": 46,
+        "lix_min": 42,
+        "lix_max": 50,
+        "topic": "rainforests and biodiversity",
+        "subtopic": "rainforests and biodiversity",
+        "text_type_key": "mixed",
+        "text_type_label": "Mixed factual narrative",
+        "text_type": "Mixed factual narrative",
+        "text_format": "journey through a real-world process",
+        "word_count": 400,
+        "question_count": 4,
+        "sentence_length_avg": 18,
+        "vocabulary_notes": "Academic vocabulary. Dense paragraphs. Formal register where appropriate."
+      },
+      "revision_history": [
+        {
+          "revision": 0,
+          "lix_actual": 51.0,
+          "actual_word_count": 382,
+          "lix_in_band": false,
+          "word_count_ok": true
+        },
+        {
+          "revision": 1,
+          "lix_actual": 44.9,
+          "actual_word_count": 370,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 2,
+          "lix_actual": 44.9,
+          "actual_word_count": 370,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 3,
+          "lix_actual": 44.9,
+          "actual_word_count": 370,
+          "lix_in_band": true,
+          "word_count_ok": false
+        },
+        {
+          "revision": 4,
+          "lix_actual": 44.9,
+          "actual_word_count": 370,
+          "lix_in_band": true,
+          "word_count_ok": false
+        }
+      ],
+      "final_revision": 4,
+      "raw_outputs": [
+        "Title:\nRainforests and Biodiversity\n\nBody text:\n[Word count: 400]\nRainforests are remarkable ecosystems that host an incredible variety of life. They are often referred to as the lungs of the Earth due to their ability to produce oxygen and absorb carbon dioxide. These lush environments are found near the equator, where temperatures are consistently warm and rainfall is abundant. The Amazon rainforest in South America is the largest, but rainforests also thrive in Africa and Southeast Asia. Each rainforest is home to countless species of plants, animals, and microorganisms, many of which are not found anywhere else on the planet.\n\nBiodiversity refers to the variety of life forms within a given ecosystem. In rainforests, biodiversity is exceptionally high. It is estimated that over half of the world’s plant and animal species live in these vibrant habitats. For instance, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This intricate web of life is essential for maintaining the balance of the ecosystem. Each species plays a unique role, contributing to processes such as pollination, seed dispersal, and nutrient cycling.\n\nThe importance of rainforests extends beyond their biological richness. They provide vital resources for humanity, including food, medicine, and materials. Many modern medicines are derived from plants found in rainforests. For example, the rosy periwinkle, a plant native to Madagascar, has been used to treat certain types of cancer. Furthermore, rainforests help regulate the global climate by storing vast amounts of carbon, thus mitigating the effects of climate change.\n\nHowever, rainforests are under threat from human activities. Deforestation, driven by logging, agriculture, and urban expansion, is destroying these precious ecosystems at an alarming rate. This loss of habitat leads to a decline in biodiversity, as many species are unable to adapt to the rapid changes in their environment. The extinction of species not only diminishes the richness of our planet but also disrupts the delicate balance of the ecosystem.\n\nConservation efforts are crucial to protect rainforests and their biodiversity. Initiatives such as sustainable logging practices, reforestation, and the establishment of protected areas can help preserve these vital ecosystems. By raising awareness and promoting responsible consumption, we can all contribute to the protection of rainforests. The future of our planet depends on the health of these extraordinary environments and the myriad of life they support.",
+        "Title:\nRainforests and Biodiversity\n\nBody text:\n[Word count: 400]\nRainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because they produce oxygen and take in carbon dioxide. These green areas are found near the equator, where it is warm and rainy all year round. The Amazon rainforest in South America is the largest, but rainforests also grow in Africa and Southeast Asia. Each rainforest is home to many species of plants, animals, and tiny organisms, many of which cannot be found anywhere else in the world.\n\nBiodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is believed that more than half of the world’s plant and animal species live in these lively habitats. For example, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This complex web of life is important for keeping the ecosystem balanced. Each species has a special role, helping with things like pollination, spreading seeds, and recycling nutrients.\n\nRainforests are important not just for their many species. They also provide essential resources for people, such as food, medicine, and materials. Many medicines we use today come from plants found in rainforests. For instance, the rosy periwinkle, a plant from Madagascar, is used to treat some types of cancer. Additionally, rainforests help control the global climate by storing large amounts of carbon, which helps reduce the effects of climate change.\n\nSadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building cities, is destroying these valuable ecosystems quickly. This loss of habitat causes many species to decline, as they cannot adapt to the fast changes in their homes. When species go extinct, it not only reduces the richness of our planet but also disturbs the delicate balance of the ecosystem.\n\nTo protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging, planting new trees, and creating protected areas can help save these vital ecosystems. By raising awareness and encouraging responsible choices, we can all help protect rainforests. The future of our planet relies on the health of these wonderful places and the many forms of life they support.",
+        "Title:  \nRainforests and Biodiversity\n\nBody text:  \n[Word count: 400]  \nRainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because they produce oxygen and take in carbon dioxide. These green areas are found near the equator, where it is warm and rainy all year round. The Amazon rainforest in South America is the largest, but rainforests also grow in Africa and Southeast Asia. Each rainforest is home to many species of plants, animals, and tiny organisms, many of which cannot be found anywhere else in the world. \n\nBiodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is believed that more than half of the world’s plant and animal species live in these lively habitats. For example, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This complex web of life is important for keeping the ecosystem balanced. Each species has a special role, helping with things like pollination, spreading seeds, and recycling nutrients. \n\nRainforests are important not just for their many species. They also provide essential resources for people, such as food, medicine, and materials. Many medicines we use today come from plants found in rainforests. For instance, the rosy periwinkle, a plant from Madagascar, is used to treat some types of cancer. Additionally, rainforests help control the global climate by storing large amounts of carbon, which helps reduce the effects of climate change. \n\nSadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building cities, is destroying these valuable ecosystems quickly. This loss of habitat causes many species to decline, as they cannot adapt to the fast changes in their homes. When species go extinct, it not only reduces the richness of our planet but also disturbs the delicate balance of the ecosystem. \n\nTo protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging, planting new trees, and creating protected areas can help save these vital ecosystems. By raising awareness and encouraging responsible choices, we can all help protect rainforests. The future of our planet relies on the health of these wonderful places and the many forms of life they support.",
+        "Title:  \nRainforests and Biodiversity\n\nBody text:  \n[Word count: 400]  \nRainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because they produce oxygen and take in carbon dioxide. These green areas are found near the equator, where it is warm and rainy all year round. The Amazon rainforest in South America is the largest, but rainforests also grow in Africa and Southeast Asia. Each rainforest is home to many species of plants, animals, and tiny organisms, many of which cannot be found anywhere else in the world. \n\nBiodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is believed that more than half of the world’s plant and animal species live in these lively habitats. For example, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This complex web of life is important for keeping the ecosystem balanced. Each species has a special role, helping with things like pollination, spreading seeds, and recycling nutrients. \n\nRainforests are important not just for their many species. They also provide essential resources for people, such as food, medicine, and materials. Many medicines we use today come from plants found in rainforests. For instance, the rosy periwinkle, a plant from Madagascar, is used to treat some types of cancer. Additionally, rainforests help control the global climate by storing large amounts of carbon, which helps reduce the effects of climate change. \n\nSadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building cities, is destroying these valuable ecosystems quickly. This loss of habitat causes many species to decline, as they cannot adapt to the fast changes in their homes. When species go extinct, it not only reduces the richness of our planet but also disturbs the delicate balance of the ecosystem. \n\nTo protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging, planting new trees, and creating protected areas can help save these vital ecosystems. By raising awareness and encouraging responsible choices, we can all help protect rainforests. The future of our planet relies on the health of these wonderful places and the many forms of life they support.",
+        "Title:  \nRainforests and Biodiversity\n\nBody text:  \n[Word count: 400]  \nRainforests are amazing places filled with a wide variety of life. They are often called the lungs of the Earth because they produce oxygen and take in carbon dioxide. These green areas are found near the equator, where it is warm and rainy all year round. The Amazon rainforest in South America is the largest, but rainforests also grow in Africa and Southeast Asia. Each rainforest is home to many species of plants, animals, and tiny organisms, many of which cannot be found anywhere else in the world. \n\nBiodiversity means the different kinds of living things in an area. In rainforests, biodiversity is very high. It is believed that more than half of the world’s plant and animal species live in these lively habitats. For example, a single tree in the Amazon can support hundreds of different species of insects, birds, and mammals. This complex web of life is important for keeping the ecosystem balanced. Each species has a special role, helping with things like pollination, spreading seeds, and recycling nutrients. \n\nRainforests are important not just for their many species. They also provide essential resources for people, such as food, medicine, and materials. Many medicines we use today come from plants found in rainforests. For instance, the rosy periwinkle, a plant from Madagascar, is used to treat some types of cancer. Additionally, rainforests help control the global climate by storing large amounts of carbon, which helps reduce the effects of climate change. \n\nSadly, rainforests are in danger because of human actions. Deforestation, caused by logging, farming, and building cities, is destroying these valuable ecosystems quickly. This loss of habitat causes many species to decline, as they cannot adapt to the fast changes in their homes. When species go extinct, it not only reduces the richness of our planet but also disturbs the delicate balance of the ecosystem. \n\nTo protect rainforests and their biodiversity, conservation efforts are very important. Actions like sustainable logging, planting new trees, and creating protected areas can help save these vital ecosystems. By raising awareness and encouraging responsible choices, we can all help protect rainforests. The future of our planet relies on the health of these wonderful places and the many forms of life they support."
+      ],
+      "elapsed_sec": 82.82
+    }
+  }
+]
