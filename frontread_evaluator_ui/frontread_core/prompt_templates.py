@@ -10,7 +10,6 @@ from __future__ import annotations
 import json
 from typing import Any
 
-from .config import QUESTION_EVAL_DIMS, TEXT_EVAL_DIMS
 from .prompts_fewshot import (
     EXEMPLAR_QA_HIGH,
     EXEMPLAR_QA_LOW,
@@ -20,6 +19,32 @@ from .prompts_fewshot import (
     EXEMPLAR_TEXT_MID,
     TEXT_REVISION_PROMPT,
 )
+
+TEXT_EVAL_DIMS = [
+    "british_english",
+    "age_appropriateness",
+    "topic_relevance",
+    "engagement",
+    "paragraph_consistency",
+    "new_concepts_introduced",
+    "narrative_arc",
+    "vocabulary_fit",
+    "overall_quality",
+]
+
+QUESTION_EVAL_DIMS = [
+    "british_english",
+    "all_answers_from_text",
+    "single_correct_answer",
+    "question_clarity",
+    "text_order_maintained",
+    "text_reference_quality",
+    "not_opinion_based",
+    "not_general_knowledge_based",
+    "no_inference_needed",
+    "distractor_quality",
+    "overall_quality",
+]
 
 PROMPT_STRATEGIES = {
     "zero_shot": "Zero-shot",
@@ -303,15 +328,27 @@ Return JSON only.
 """.strip()
 
 TEXT_EVALUATION_USER_TEMPLATE = """
-Evaluate this generated FrontRead reading text on a 1-5 scale for each dimension.
-5 = excellent / fully compliant. 4 = good. 3 = acceptable but needs review. 2 = weak. 1 = unacceptable.
+Evaluate this generated FrontRead reading text.
+
+You are performing QUALITATIVE TEXT REVIEW ONLY.
+Do NOT recalculate word count, LIX, sentence length, paragraph LIX, or any metric already provided.
+Use the Python-computed metrics as factual inputs when judging readability, LIX compliance, paragraph consistency, and vocabulary fit.
+
+SCORING:
+1 = Very poor / unacceptable
+2 = Weak
+3 = Acceptable but needs review
+4 = Good
+5 = Excellent / fully compliant
 
 TARGET PARAMETERS:
 - Grade: {{grade_label}} ({{grade_key}})
 - Topic: {{topic}}
-- Text type: {{text_type_label}} / {{text_format}}
+- Text type: {{text_type_label}}
+- Text format: {{text_format}}
 - Target word count: {{word_count}}
-- Target LIX: {{lix_target}} with required band {{lix_min}}–{{lix_max}}
+- Target LIX: {{lix_target}}
+- Required LIX band: {{lix_min}}-{{lix_max}}
 
 PYTHON-COMPUTED METRICS:
 {{metrics_json}}
@@ -321,16 +358,34 @@ Title: {{title}}
 
 {{body}}
 
-DIMENSIONS:
+QUALITATIVE TEXT EVALUATION CRITERIA:
 {{dimensions}}
+
+IMPORTANT:
+- Evaluate the text only. Do not evaluate questions.
+- Use Python metrics as evidence, not as something to recompute.
+- If actual LIX is outside the required band, reflect this in vocabulary_fit and age_appropriateness where relevant.
+- If paragraph LIX values or paragraph quality are uneven, reflect this in paragraph_consistency.
+- British English means UK spelling, grammar, punctuation conventions, and vocabulary.
+- Return JSON only. Do not include markdown, commentary, or extra text.
 
 Respond only with JSON in exactly this structure:
 {{json_schema}}
 """.strip()
 
 QUESTION_EVALUATION_USER_TEMPLATE = """
-Evaluate this generated FrontRead literal comprehension question set on a 1-5 scale for each dimension.
-5 = excellent / fully compliant. 4 = good. 3 = acceptable but needs review. 2 = weak. 1 = unacceptable.
+Evaluate this generated FrontRead literal comprehension question set.
+
+You are performing QUALITATIVE QUESTION REVIEW ONLY.
+Do NOT recalculate question metrics already provided.
+Use the Python-computed question metrics as factual inputs when judging completeness, answer distribution, references, and formatting.
+
+SCORING:
+1 = Very poor / unacceptable
+2 = Weak
+3 = Acceptable but needs review
+4 = Good
+5 = Excellent / fully compliant
 
 TARGET PARAMETERS:
 - Grade: {{grade_label}} ({{grade_key}})
@@ -348,8 +403,18 @@ Title: {{title}}
 GENERATED QUESTIONS:
 {{questions_json}}
 
-DIMENSIONS:
+QUALITATIVE QUESTION EVALUATION CRITERIA:
 {{dimensions}}
+
+IMPORTANT:
+- Evaluate the questions only. Do not evaluate the source text quality.
+- Use Python metrics as evidence, not as something to recompute.
+- Penalise any question whose answer is not explicitly stated in the text.
+- Penalise any question that requires inference, interpretation, opinion, or general knowledge.
+- Penalise inaccurate or imprecise text references.
+- Penalise questions with more than one plausible correct answer.
+- British English means UK spelling, grammar, punctuation conventions, and vocabulary.
+- Return JSON only. Do not include markdown, commentary, or extra text.
 
 Respond only with JSON in exactly this structure:
 {{json_schema}}
@@ -489,14 +554,15 @@ def build_question_generation_prompts(
 def text_eval_dimensions_text() -> str:
     return "\n".join(
         [
-            "- age_appropriateness: Is the text suitable for the target grade's age and reading ability?",
-            "- topic_relevance: Does it stay focused on the requested topic?",
-            "- engagement: Is it likely to be interesting and readable for students?",
-            "- paragraph_consistency: Do all paragraphs maintain a similar difficulty level?",
-            "- new_concepts_control: Are unfamiliar concepts limited and explained?",
-            "- british_english: Does it use British English spelling and phrasing?",
-            "- narrative_arc: Does it have a clear beginning, development, and ending, even for non-fiction?",
-            "- vocabulary_fit: Is the vocabulary appropriate for this grade and LIX band?",
+            "- british_english: Checks whether British English spelling, grammar, punctuation conventions, and vocabulary are used consistently. 1 = Mostly incorrect or inconsistent British English; 5 = fully consistent British English.",
+            "- age_appropriateness: Measures whether sentence structure, ideas, and vocabulary suit the target grade level. 1 = completely unsuitable for the target age; 5 = perfectly matched to the target age.",
+            "- topic_relevance: Evaluates how closely the text stays focused on the assigned topic. 1 = frequently off-topic; 5 = fully relevant throughout.",
+            "- engagement: Assesses how interesting, lively, and engaging the text is for student readers. 1 = very dull or unengaging; 5 = highly engaging and readable.",
+            "- paragraph_consistency: Checks whether all paragraphs maintain a similar complexity, tone, and structure. 1 = highly uneven paragraph quality; 5 = strong consistency throughout.",
+            "- new_concepts_introduced: Evaluates whether the text limits unfamiliar concepts appropriately for reading practice. 1 = too many unfamiliar concepts introduced; 5 = appropriate and controlled concept load.",
+            "- narrative_arc: Measures whether the text has a clear progression, flow, and satisfying structure. 1 = no clear structure or progression; 5 = strong and coherent narrative flow.",
+            "- vocabulary_fit: Assesses whether the vocabulary matches the target reading level and remains consistent. 1 = vocabulary unsuitable or inconsistent; 5 = excellent vocabulary alignment.",
+            "- overall_quality: Overall holistic quality score across all text criteria. 1 = very weak overall quality; 5 = excellent overall quality.",
         ]
     )
 
@@ -504,19 +570,19 @@ def text_eval_dimensions_text() -> str:
 def question_eval_dimensions_text() -> str:
     return "\n".join(
         [
-            "- answerable_from_text: Can every answer be found explicitly in the passage?",
-            "- single_correct_answer: Does every question have exactly one unambiguous correct option?",
-            "- not_opinion_based: Are there no opinion/personal-response questions?",
-            "- not_general_knowledge: Must students read the passage rather than rely on outside knowledge?",
-            "- no_inference_required: Are all questions literal rather than inferential?",
-            "- distractor_quality: Are wrong options plausible but clearly wrong from the text?",
-            "- question_clarity: Is wording clear and grade-appropriate?",
-            "- text_order: Do questions follow the order of the source passage?",
-            "- text_reference_accuracy: Does each text reference contain the answer?",
-            "- british_english: Do questions and options use British English?",
+            "- british_english: Checks whether the questions and options consistently use British English spelling, vocabulary, and style. 1 = mostly American English or inconsistent usage; 5 = fully consistent British English throughout.",
+            "- all_answers_from_text: Verifies that every correct answer is stated directly and explicitly in the text. 1 = many answers not found in text; 5 = every answer explicitly stated in text.",
+            "- single_correct_answer: Ensures each question has exactly one unambiguous correct answer. 1 = multiple possible answers in several questions; 5 = only one clearly correct answer per question.",
+            "- question_clarity: Measures how clearly and simply the questions are written for students. 1 = confusing or unclear wording; 5 = very clear and easy to understand.",
+            "- text_order_maintained: Checks whether questions follow the sequence of information in the text. 1 = questions appear in random order; 5 = perfectly follows text order.",
+            "- text_reference_quality: Evaluates whether the text references accurately quote the exact supporting phrase or sentence. 1 = missing or inaccurate references; 5 = precise and directly relevant references.",
+            "- not_opinion_based: Confirms that questions ask only factual information, not opinions or interpretations. 1 = mostly opinion-based; 5 = entirely factual questions.",
+            "- not_general_knowledge_based: Ensures questions cannot be answered using general knowledge alone without reading the text. 1 = easily answerable from general knowledge; 5 = requires reading the text.",
+            "- no_inference_needed: Checks that students do not need to infer, analyse, or interpret beyond explicit information. 1 = heavy inference required; 5 = completely literal comprehension only.",
+            "- distractor_quality: Evaluates whether incorrect options are plausible but clearly wrong according to the text. 1 = silly or obvious distractors; 5 = plausible and well-balanced distractors.",
+            "- overall_quality: Overall averaged quality rating across all question evaluation criteria. 1 = very weak overall quality; 5 = excellent overall quality.",
         ]
     )
-
 
 def build_text_evaluation_prompts(
     title: str,
